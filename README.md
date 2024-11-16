@@ -3,8 +3,13 @@ This is the netlist to the same (generic gate) done using yosys.
 
 <img width="1468" alt="Screenshot 2024-11-17 at 12 46 07 AM" src="https://github.com/user-attachments/assets/6a23c46e-d157-4255-98fd-daedab8c00a2">
 
+<br>
+<br>
+
 This is technology mapped netlist done using yosys and 45 nm cmos pdk.
 This mapping is too long, I will upload it in bits and pieces of images - 
+<br>
+
 <img width="901" alt="Screenshot 2024-11-17 at 1 08 41 AM" src="https://github.com/user-attachments/assets/6bd94c6a-db0f-43ee-b720-c735c44d3193">
 <img width="901" alt="Screenshot 2024-11-17 at 1 09 02 AM" src="https://github.com/user-attachments/assets/78a25439-11d1-4ee9-9109-5727e97c58cf">
 <img width="901" alt="Screenshot 2024-11-17 at 1 09 20 AM" src="https://github.com/user-attachments/assets/c43f6202-a63c-4e00-b5e1-552a913b6c84">
@@ -23,8 +28,30 @@ This mapping is too long, I will upload it in bits and pieces of images -
 <img width="901" alt="Screenshot 2024-11-17 at 1 14 12 AM" src="https://github.com/user-attachments/assets/fd734746-b775-40f9-902f-9e89d13afdb1">
 <img width="900" alt="Screenshot 2024-11-17 at 1 14 32 AM" src="https://github.com/user-attachments/assets/5e5a2860-4b17-46af-b352-101641011783">
 <img width="920" alt="Screenshot 2024-11-17 at 1 14 47 AM" src="https://github.com/user-attachments/assets/526924b0-e200-44ce-81bf-302cb5ed27e8">
+<br>
+
 The overall image looks like this - 
+<br>
+
 <img width="56" alt="Screenshot 2024-11-17 at 1 15 20 AM" src="https://github.com/user-attachments/assets/bcd754ef-9b81-469f-9b9e-873f1b503993">
+<br>
+
 To analyse this it will be easier if I add dot file, I will upload it in the above with .dot extension, please download it and analyse if you want to.
+<br>
+<br>
+
+Using stat -liberty command we can also get or estimate the area of the chip - <br>
+<img width="491" alt="Screenshot 2024-11-17 at 1 27 45 AM" src="https://github.com/user-attachments/assets/f45d2fbd-1386-4e99-bf0e-0532e48a6811">
+<br>
+<br>
+
+We can also perform logic optimiztion using yosys by running the following commands on terminal - <br>
+opt <br>
+share -aggressive <br>
+After running these commands , the generic netlist which was different above looks like this after optimisation - <br>
+<img width="1470" alt="Screenshot 2024-11-17 at 1 32 37 AM" src="https://github.com/user-attachments/assets/add299c1-8c41-4c27-9291-79cda60d3d8b">
+
+
+
 
 
