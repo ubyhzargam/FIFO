@@ -26,7 +26,8 @@ This is the generic gate netlist <br>
 <br>
 <br>
 This is the optimized generic gate netlist <br> 
-<img width="1463" alt="Screenshot 2024-11-19 at 2 56 08 AM" src="https://github.com/user-attachments/assets/bd9951ab-bcd1-4d1f-910a-0a17fcf6b2a6">
+<img width="1463" alt="Screenshot 2024-11-19 at 2 59 38 AM" src="https://github.com/user-attachments/assets/c6adcc75-6197-43a4-bd9d-1e65f94d63b4">
+
 <br>
 <br>
 
@@ -38,7 +39,9 @@ This is technology mapped netlist done using yosys and 45 nm cmos pdk.
 <br>
 <br>
 
-<img width="56" alt="Screenshot 2024-11-17 at 1 15 20 AM" src="https://github.com/user-attachments/assets/bcd754ef-9b81-469f-9b9e-873f1b503993">
+This is the optimized technology mapped netlist <br> 
+<img width="1463" alt="Screenshot 2024-11-19 at 2 56 08 AM" src="https://github.com/user-attachments/assets/bd9951ab-bcd1-4d1f-910a-0a17fcf6b2a6">
+
 <br>
 
 <br>
