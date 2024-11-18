@@ -1,5 +1,6 @@
 The above is the code for FIFO of depth 16. <br>
-
+<img width="414" alt="Screenshot 2024-11-19 at 3 02 47 AM" src="https://github.com/user-attachments/assets/17fce320-4d6a-4475-853a-9b2120a244d3">
+<br>
 Now , let us perform logic senthesis on this RTL code. <br>
 There are several steps in logic synthesis - <br>
 1. RTL Synthesis : Converts RTL (verilog) code to Generic Netlist. This is further subdivided into Parsing + Elaboration + Translation and optimization <br>
