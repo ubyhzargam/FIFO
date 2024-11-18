@@ -21,23 +21,26 @@ show <br>
 <br>
 
 This is the generic gate netlist <br> 
+<img width="1463" alt="Screenshot 2024-11-19 at 2 55 19 AM" src="https://github.com/user-attachments/assets/4c3ac7e4-c4c6-4310-8d5c-a739282bdebd">
 
+<br>
+<br>
+This is the optimized generic gate netlist <br> 
+<img width="1463" alt="Screenshot 2024-11-19 at 2 56 08 AM" src="https://github.com/user-attachments/assets/bd9951ab-bcd1-4d1f-910a-0a17fcf6b2a6">
+<br>
+<br>
 
 
 This is technology mapped netlist done using yosys and 45 nm cmos pdk.
-This mapping is too long, I will upload it in bits and pieces of images - 
 <br>
 <img width="1470" alt="Screenshot 2024-11-19 at 1 38 20 AM" src="https://github.com/user-attachments/assets/6096b890-f998-438f-b70d-39bd00a2091b">
 
 <br>
-
-The overall image looks like this - 
 <br>
 
 <img width="56" alt="Screenshot 2024-11-17 at 1 15 20 AM" src="https://github.com/user-attachments/assets/bcd754ef-9b81-469f-9b9e-873f1b503993">
 <br>
 
-To analyse this it will be easier if I add dot file, I will upload it in the above with .dot extension, please download it and analyse if you want to.
 <br>
 <br>
 
@@ -46,11 +49,7 @@ Using stat -liberty command we can also get or estimate the area of the chip - <
 <br>
 <br>
 
-We can also perform logic optimiztion using yosys by running the following commands on terminal - <br>
-opt <br>
-share -aggressive <br>
-After running these commands , the generic netlist which was different above looks like this after optimisation - <br>
-<img width="1470" alt="Screenshot 2024-11-17 at 1 32 37 AM" src="https://github.com/user-attachments/assets/add299c1-8c41-4c27-9291-79cda60d3d8b">
+
 
 
 
